@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="tTHDl4rr" version="1.0" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations default="test">
+    <organization identifier="test" structure="hierarchical">
+      <title>PR2-Lesson1</title>
+      <item identifier="test-HTML5_test_html" identifierref="HTML5_test_html" isvisible="true">
+        <title>PR2-Lesson1</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="HTML5_player_APIWrapper_js" type="webcontent" adlcp:scormType="asset" href="HTML5/player/APIWrapper.js">
+      <file href="HTML5/player/APIWrapper.js"/>
+    </resource>
+    <resource identifier="HTML5_resources_res_10000_png" type="webcontent" adlcp:scormType="asset" href="HTML5/resources/res_10000.png">
+      <file href="HTML5/resources/res_10000.png"/>
+    </resource>
+    <resource identifier="HTML5_resources_thumb_64_jpg" type="webcontent" adlcp:scormType="asset" href="HTML5/resources/thumb_64.jpg">
+      <file href="HTML5/resources/thumb_64.jpg"/>
+    </resource>
+    <resource identifier="HTML5_resources_thumb_111_jpg" type="webcontent" adlcp:scormType="asset" href="HTML5/resources/thumb_111.jpg">
+      <file href="HTML5/resources/thumb_111.jpg"/>
+    </resource>
+    <resource identifier="HTML5_index_css" type="webcontent" adlcp:scormType="asset" href="HTML5/index.css">
+      <file href="HTML5/index.css"/>
+    </resource>
+    <resource identifier="HTML5_index-images_demo_png" type="webcontent" adlcp:scormType="asset" href="HTML5/index-images/demo.png">
+      <file href="HTML5/index-images/demo.png"/>
+    </resource>
+    <resource identifier="HTML5_index-images_tutorial_png" type="webcontent" adlcp:scormType="asset" href="HTML5/index-images/tutorial.png">
+      <file href="HTML5/index-images/tutorial.png"/>
+    </resource>
+    <resource identifier="HTML5_index-images_practice_png" type="webcontent" adlcp:scormType="asset" href="HTML5/index-images/practice.png">
+      <file href="HTML5/index-images/practice.png"/>
+    </resource>
+    <resource identifier="HTML5_index-images_test_png" type="webcontent" adlcp:scormType="asset" href="HTML5/index-images/test.png">
+      <file href="HTML5/index-images/test.png"/>
+    </resource>
+    <resource identifier="HTML5_test_html" type="webcontent" adlcp:scormType="sco" href="HTML5/test.html">
+      <file href="HTML5/test.html"/>
+      <dependency identifierref="HTML5_player_APIWrapper_js"/>
+      <dependency identifierref="HTML5_resources_res_10000_png"/>
+      <dependency identifierref="HTML5_resources_thumb_64_jpg"/>
+      <dependency identifierref="HTML5_resources_thumb_111_jpg"/>
+      <dependency identifierref="HTML5_index_css"/>
+      <dependency identifierref="HTML5_index-images_demo_png"/>
+      <dependency identifierref="HTML5_index-images_tutorial_png"/>
+      <dependency identifierref="HTML5_index-images_practice_png"/>
+      <dependency identifierref="HTML5_index-images_test_png"/>
+      <dependency identifierref="HTML5_rlprez_js"/>
+      <dependency identifierref="HTML5_player_rlplayer_js"/>
+      <dependency identifierref="HTML5_player_rlplayer_lang_en-US_js"/>
+      <dependency identifierref="HTML5_player_rlplayer_css"/>
+      <dependency identifierref="HTML5_rlprez_css"/>
+      <dependency identifierref="HTML5_player_rlsco_functions_js"/>
+    </resource>
+    <resource identifier="HTML5_rlprez_js" type="webcontent" adlcp:scormType="asset" href="HTML5/rlprez.js">
+      <file href="HTML5/rlprez.js"/>
+    </resource>
+    <resource identifier="HTML5_player_rlplayer_js" type="webcontent" adlcp:scormType="asset" href="HTML5/player/rlplayer.js">
+      <file href="HTML5/player/rlplayer.js"/>
+    </resource>
+    <resource identifier="HTML5_player_rlplayer_lang_en-US_js" type="webcontent" adlcp:scormType="asset" href="HTML5/player/rlplayer.lang.en-US.js">
+      <file href="HTML5/player/rlplayer.lang.en-US.js"/>
+    </resource>
+    <resource identifier="HTML5_player_rlplayer_css" type="webcontent" adlcp:scormType="asset" href="HTML5/player/rlplayer.css">
+      <file href="HTML5/player/rlplayer.css"/>
+    </resource>
+    <resource identifier="HTML5_rlprez_css" type="webcontent" adlcp:scormType="asset" href="HTML5/rlprez.css">
+      <file href="HTML5/rlprez.css"/>
+    </resource>
+    <resource identifier="HTML5_player_rlsco_functions_js" type="webcontent" adlcp:scormType="asset" href="HTML5/player/rlsco_functions.js">
+      <file href="HTML5/player/rlsco_functions.js"/>
+    </resource>
+  </resources>
+</manifest>
